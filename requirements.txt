@@ -1,0 +1,10 @@
+tensorflow==2.16.1
+torch
+torchvision
+gradio
+opencv-python-headless
+numpy
+albumentations
+pillow
+matplotlib
+seaborn
