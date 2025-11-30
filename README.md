@@ -1,23 +1,85 @@
-# Chest X-Ray Diagnosis System
+# 🩺 Chest X-Ray Classification & Object Detection System
 
-This project contains:
-- 🩺 Chest X-Ray **Classification** (DenseNet121)
-- 🎯 Chest X-Ray **Object Detection** (Faster R-CNN)
-- ⚡ Real-time inference using Gradio (Simple version)
-- 📦 Ready for GitHub / Hugging Face
+This repository contains two deep-learning applications for analyzing chest X-ray images:
 
-## Files Included
-- `classification_app.py`
-- `detection_app.py`
-- `best_classification_model.keras` (upload manually)
-- `m3_best.pt` (upload manually)
+1. **Image Classification** — Predicts one of 5 disease classes.  
+2. **Object Detection** — Detects and localizes abnormalities using bounding boxes.
+
+Both applications run through **Gradio web interfaces** for fast, simple, real-time inference.
+
+This project is for **research and academic use only.**
+
+---
+
+# 🚀 Live Demos
+
+### 🔵 Classification Demo  
+https://huggingface.co/spaces/Mohab-Hossam/ChestXray-Classifier
+
+### 🟠 Detection Demo  
+https://huggingface.co/spaces/Mohab-Hossam/ChestXray-Detector
+
+---
+
+# 📥 Download Trained Models (Google Drive)
+
+### **Classification Model — `best_classification_model.keras`**  
+👉 *(Add Google Drive link here)*
+
+### **Detection Model — `fasterrcnn_best.pt`**  
+👉 *(Add Google Drive link here)*
+
+Place each downloaded model **next to its corresponding `app.py` file** exactly as structured below.
+
+---
+
+# 📦 Included Files
+
+### **Classification**
+- `app.py`
+- `best_classification_model.keras`
 - `requirements.txt`
 
-## Run locally
-```
-pip install -r requirements.txt
-python classification_app.py
-python detection_app.py
-```
+### **Detection**
+- `app.py`
+- `fasterrcnn_best.pt`
+- `requirements.txt`
+
+---
+
+# 🧠 Features
+
+### **Classification**
+- Predicts 5 classes: **Cardiomegaly – Pneumonia – Sick – Healthy – Tuberculosis**
+- High-accuracy predictions  
+- Confidence scores  
+- Probability distribution visualization  
+- Supports JPG / PNG images  
+
+### **Detection**
+- **Faster R-CNN (ResNet50-FPN)**
+- Bounding boxes with class labels  
+- Adjustable confidence threshold  
+- Per-class detection summary  
+
+---
+
+# 🛠 Tech Stack
+- **TensorFlow / Keras** (classification)  
+- **PyTorch + Torchvision** (detection)  
+- **Gradio** (web UI)  
+- **MLflow** (tracking)  
+- **Albumentations** (preprocessing)
+
+---
+
+# ⚠️ Medical Disclaimer
+This tool is **NOT** a medical device.  
+It is intended **only for research and educational purposes.**
+
+---
+
+GitHub Repository:  
+https://github.com/Mohab-Hoss/Image-Classification-and-Object-Detection-System
 
 
