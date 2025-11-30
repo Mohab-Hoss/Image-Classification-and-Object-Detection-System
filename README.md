@@ -20,6 +20,4 @@ python classification_app.py
 python detection_app.py
 ```
 
-## Medical Disclaimer
-This tool is for educational and research purposes only.
-Do NOT use for medical decisions.
+
