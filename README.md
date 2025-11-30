@@ -24,10 +24,10 @@ https://huggingface.co/spaces/Mohab-Hossam/ChestXray-Detector
 # 📥 Download Trained Models (Google Drive)
 
 ### **Classification Model — `best_classification_model.keras`**  
-👉 *(Add Google Drive link here)*
+👉 *https://drive.google.com/file/d/1spNYR_BZ1v1yAGI_iqHfNVdwnMGjy88w/view?usp=sharing*
 
 ### **Detection Model — `fasterrcnn_best.pt`**  
-👉 *(Add Google Drive link here)*
+👉 *https://drive.google.com/file/d/1Ll-1E2Fjs5dhw_YTTRzPLI78oB0z5vR9/view?usp=sharing*
 
 Place each downloaded model **next to its corresponding `app.py` file** exactly as structured below.
 
@@ -37,12 +37,12 @@ Place each downloaded model **next to its corresponding `app.py` file** exactly 
 
 ### **Classification**
 - `app.py`
-- `best_classification_model.keras`
+- `README.md`
 - `requirements.txt`
 
 ### **Detection**
 - `app.py`
-- `fasterrcnn_best.pt`
+- `README.md`
 - `requirements.txt`
 
 ---
