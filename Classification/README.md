@@ -5,7 +5,8 @@ This folder contains the implementation of the chest X-ray image classification 
 ## 📂 Files Included
 - app.py  
 - requirements.txt  
-
+- README.md
+  
 ## 🔗 Download Model
 Place the trained model here:
 
