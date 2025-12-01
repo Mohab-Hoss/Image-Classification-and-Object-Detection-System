@@ -4,8 +4,8 @@ This folder contains the chest X-ray object detection system using a fine-tuned 
 
 ## 📂 Files Included
 - app.py  
-- fasterrcnn_best.pt  
-- requirements.txt  
+- requirements.txt
+- README.md  
 
 ## 🔗 Download Model
 Place the trained model here:
